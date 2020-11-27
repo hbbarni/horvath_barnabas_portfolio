@@ -1,0 +1,20 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body{
+	background-image: url(kepek/hatter.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+body {
+	font-size: 30px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: white;
+	margin: 3rem;
+}

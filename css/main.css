@@ -1,0 +1,88 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+body{
+	background-image: url(kepek/hatter.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+body {
+	font-size: 60px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: white;
+	margin: 1.5rem;
+}
+
+img{
+	max-width: 100%;
+}
+
+/*--layout--*/
+	body{
+		display: grid;
+		grid-template-areas: 
+		"fejlec"
+		"kontent"
+		"lablec"
+		;
+		grid-template-rows: max-content 1fr max-content;
+		min-height: 100vh;
+	}
+
+	header{
+		line-height: 3rem;
+		text-align: center;
+		padding-top: 1rem;
+
+	}
+
+	a{
+		cursor: pointer;
+		padding-right: 3px;
+		padding-left: 3px;
+		margin: 1rem;
+		text-decoration: none;
+		color: white;
+		font-size: 30px;
+		border-style: solid;
+		border-color: white;
+	}
+
+	a:hover{
+-webkit-box-shadow: 0px 11px 23px 11px rgba(255,255,255,0.23); 
+box-shadow: 0px 11px 23px 11px rgba(255,255,255,0.23);
+	}
+
+
+/*--layout--*/
+
+
+.menu div{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px; 
+}
+
+.menu li{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+
+.bevez_kep img{
+	height: 330px;
+	display: block;
+	border-radius: 9px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 4rem;
+}
+
